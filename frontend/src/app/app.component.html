@@ -1,0 +1,8 @@
+<div>
+  <header>
+    <h1>Todos</h1>
+  </header>
+  <ul>
+    <li *ngFor="let todo of todos$ | async">{{ todo.title }}</li>
+  </ul>
+</div>
